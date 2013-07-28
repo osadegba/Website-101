@@ -1,47 +1,66 @@
-nav {
-    font-size: 14px;
-    font-family: georgia;
-    text-align: center;
-    float: right;
+header{
+    height:70px;
+    
+    z-index:4;
     
 }
-div {
-    width: 300px;
+.navi {
+    text-align: right;
+    font-size: 10px;
+    font-family: Arial,Helvetica,sans-serif;
+    
+    zoom: 1;
+    opacity: 0.9;
+    /*left: 500px;*/
+    top: 30px;
+    /*width: 700px;*/
+    min-height: 23px;
+    position: absolute;
+}   
+   
+
+.div-div {
+    
     border:  1px;
-    display: inline;
-    padding: 10px 0;
-    background: white;
-	background-image: -webkit-linear-gradient(#white, #950);
-	background-image:    -moz-linear-gradient(#white, #950);
-	background-image:     -ms-linear-gradient(#white, #950);
-	background-image:      -o-linear-gradient(#white, #950);
-	background-image:         linear-gradient(#white, #950);
-    text-decoration: none;
+    display: inline-block;
+    padding: 0 10px;
+    
+    
 }
 
-a:first-child div {
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
-}
-a:last-child div {
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-}
-a:link, a:active
+.nav-a:link
 {
-font-weight:bold;
-color: black;
-text-align:center;
-padding:6px;
-text-decoration:none;
-text-transform:uppercase;
+    
+    text-decoration:none;
+    
+    line-height: 1.2em;
 }
-a:hover,a:active
+.nav-a:hover
 {
-text-decoration: underline;
+    cursor: pointer;
+    color: rgb(57, 114, 155);
+    transition: color 0.4s ease 0s;
+    -webkit-transition-property: color;
+    -webkit-transition-duration: 0.4s;
+    -webkit-transition-timing-function: ease;
+    -webkit-transition-delay: 0s;
+
 }
-#selected {
-    color:blue;
-    font-weight:bold;
+#selected, .nav-a:active {
+    color: rgb(57, 114, 155);
+    transition: color 0.4s ease 0s;;
+    -webkit-transition-property: color;
+    -webkit-transition-duration: 0.4s;
+    -webkit-transition-timing-function: ease;
+    -webkit-transition-delay: 0s;
+    
 }
 
+.nav-a{
+    color: #ddd;
+    font-size: 16px;
+    width: auto;
+    line-height: 23px;
+    padding:0 8px;    
+    /*letter-spacing: 1px;*/
+}
