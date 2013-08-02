@@ -1,0 +1,20 @@
+/*
+	The main css file for Kurtis' page
+*/
+
+#freestyles {
+	text-align: left;
+}
+
+#slothfacts {
+	text-align: left;
+	color:#F6CED8;
+	font-size:30;
+}
+
+.lifeWords {
+	color:#FFFFFF;
+	font-size:20px;
+	font-family: dayton
+
+}
